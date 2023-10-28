@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 143px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.wrapper {
+    display: flex;
+    margin-left: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.wrapper-saqlain {
+    position: absolute;
+    left: 182px;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    top: 56px;
+
+}
+
+.wrapper-work {
+    border: none;
+    width: 75px;
+    height: 12px;
+    position: absolute;
+    top: 56px;
+    right: 294px;
+    z-index: 1;
+}
+
+.btn-txt {
+    display: flex;
+    position: relative;
+    top: -12px;
+    left: -3px;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.btn-txt::after {
+    position: absolute;
+    bottom: 1px;
+    top: 12px;
+    left: 2px;
+    content: "";
+    width: 75px;
+    height: 12px;
+    background-color: #03FFC5;
+    z-index: -1;
+}
+
+
+.wrapper-touch {
+    border: none;
+    width: 102px;
+    height: 12px;
+    position: absolute;
+    top: 56px;
+    right: 143px;
+    z-index: 1;
+}
+
+#btn-txt {
+    display: flex;
+    position: relative;
+    top: -12px;
+    left: -3px;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+#btn-txt::after {
+    position: absolute;
+    bottom: 1px;
+    top: 12px;
+    left: 2px;
+    content: "";
+    width: 101px;
+    height: 12px;
+    background-color: #03FFC5;
+    z-index: -1;
+}
+
+.first-section {
+    margin-top: 24px;
+    margin-bottom: 0px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: #E6E7EB;
+}
+
+.header-container {
+    width: 100%;
+    height: 80vh;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-btn {
+    display: flex;
+    position: relative;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.35);
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 109.3%;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+}
+
+H1 {
+    font-family: Abril Fatface;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+    margin-bottom: 37px;
+}
+
+.hero-text {
+    width: 496px;
+    color: var(--Text-Color, #000);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    width: 736px;
+}
+
+#hero-text {
+    width: 130px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: lowercase;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+#hero-text::after {
+    position: absolute;
+    top: 12px;
+    left: 2px;
+    bottom: 1px;
+    content: "";
+    width: 128px;
+    height: 12px;
+    background-color: #03FFC5;
+    z-index: -1;
+}
+
+#main-img {
+    margin-top: 1200px;
+}
+
+.four-section {
+    background: #E6E7EB;
+    margin: 1600px 24px 24px 24px;
+}
+
+.header-container2 {
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-text4 {
+    width: 618px;
+    font-family: Abril Fatface, serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    z-index: 1;
+    left: 160px;
+}
+
+.main-text4::after {
+    position: absolute;
+    bottom: 10px;
+    right: 367px;
+    content: "";
+    width: 100px;
+    height: 28px;
+    background-color: #03FFC5;
+    z-index: -1;
+}
+
+.four-container {
+    width: fit-content;
+    position: relative;
+    border: none;
+    z-index: 1;
+    right: 136px;
+}
+
+.hero-text4 {
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    width: 544px;
+}
+
+.color-btn {
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+}
+
+.color-btn::after {
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+    content: "";
+    width: 170px;
+    height: 12px;
+    background-color: #03FFC5;
+    z-index: -1;
+}
+
+.last-text {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    display: flex;
+    margin-left: 160px;
+}
